@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Subrayada&display=swap');
+
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html{
+  box-sizing: border-box;
+  font-size: 62.5%; /*make 1rem = 10px so that calculations are easier */
+}
+
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    grid-gap: 30px;
+    padding: 3rem;
+}
+
+h1 {
+    color: #4682B4;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+h2 {
+    color: #4682B4;
+    margin-bottom: 3rem;
+}
+
+p {
+    margin-top: 3rem;
+}
+
+a {
+    background-color: #4682B4;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #888;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 3rem;
+}
+
+a:hover{
+    opacity: .8;
+}
+
+.card{
+    background-color: #F0F8FF;
+    border-radius: 10px;
+    padding: 3rem;
+}

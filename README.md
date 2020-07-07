@@ -12,3 +12,4 @@ Assuming you have python and pip installed:
 
 4. Open index.html in browser to view results.
 
+Here is a sample page after running the script on 07/07/2020 https://freedamoore.github.io/python-scraping-hacker-news
